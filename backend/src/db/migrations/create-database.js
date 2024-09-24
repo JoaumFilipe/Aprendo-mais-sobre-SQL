@@ -1,7 +1,7 @@
 import { pool } from '../db.js'
 
 const createDataBase = async () => {
-  const sql = 'CREATE DATABASE IF NOT EXISTS home'
+  const sql = 'CREATE DATABASE IF NOT EXISTS house'
 
   try {
     pool.query(sql, (err, results) => {
